@@ -1,0 +1,29 @@
+{
+  "name": "reselect-selectors",
+  "version": "1.0.0",
+  "description": "Collection of selectors which are needed in each repository which uses reselect",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/jsifalda/reselect-selectors.git"
+  },
+  "keywords": [
+    "reselect",
+    "selectors"
+  ],
+  "author": "sifalda.jiri@gmail.com",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jsifalda/reselect-selectors/issues"
+  },
+  "homepage": "https://github.com/jsifalda/reselect-selectors#readme",
+  "dependencies": {
+    "idhash": "^2.0.0",
+    "is-plain-object": "^2.0.4",
+    "lodash.get": "^4.4.2",
+    "reselect": "^4.0.0"
+  }
+}
