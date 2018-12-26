@@ -12,7 +12,7 @@ const hash = defaultMemoize((data) => {
 const getByIdSelector = (selector, key = 'id') => {
   return (state, { id }) => {
     let data = selector(state)
-    return hash(data, key)[id]
+    return (hash(data, key) || {})[id]
   }
 }
 
