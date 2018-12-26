@@ -1,11 +1,12 @@
 {
   "name": "reselect-selectors",
-  "version": "1.4.0",
+  "version": "1.4.1",
   "description": "Collection of selectors which are needed in each repository which uses reselect",
   "main": "lib/index.js",
   "scripts": {
     "test": "jest ./src",
-    "prepare": "rm -rf ./lib && ./node_modules/.bin/babel -e 0 ./src --out-dir ./lib"
+    "build": "rm -rf ./lib && ./node_modules/.bin/babel -e 0 ./src --out-dir ./lib",
+    "prepare": "npm test && npm run build"
   },
   "repository": {
     "type": "git",
