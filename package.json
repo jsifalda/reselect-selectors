@@ -1,6 +1,6 @@
 {
   "name": "reselect-selectors",
-  "version": "1.3.0",
+  "version": "1.4.0",
   "description": "Collection of selectors which are needed in each repository which uses reselect",
   "main": "lib/index.js",
   "scripts": {
