@@ -9,10 +9,10 @@ const hash = defaultMemoize((data) => {
   return data
 })
 
-const getByIdSelector = (selector) => {
+const getByIdSelector = (selector, key = 'id') => {
   return (state, { id }) => {
     let data = selector(state)
-    return hash(data)[id]
+    return hash(data, key)[id]
   }
 }
 
